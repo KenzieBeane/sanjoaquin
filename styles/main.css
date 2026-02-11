@@ -11,7 +11,7 @@ html {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 100%;
-    width: 650px;
+    width: 800px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -44,11 +44,25 @@ header h3 {
 
 main {
     padding: 0 1em;
+    display: flex;
+    padding-bottom: .5em;
+}
+
+main section {
+    width: 75%;
+}
+
+main aside {
+    width: 30%;
+    padding-right: 15px;
 }
 
 main h1 {
     font-size: 150%;
     padding: .3em 0;
+}
+
+main article {
     border-top: 3px solid #931420;
     border-bottom: 3px solid #931420;
 }
